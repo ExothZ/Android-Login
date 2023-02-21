@@ -12,6 +12,11 @@ import com.google.firebase.firestore.FirebaseFirestore
 
 class Registro : AppCompatActivity() {
 
+	/*
+	 * Copyright 2023.
+	 * Ver Copyright.txt para más detalles de permisos
+	 */
+	
     private val db = FirebaseFirestore.getInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {
