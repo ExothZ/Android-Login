@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#202732">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Registrate"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/register" />
+
+    <EditText
+        android:id="@+id/usuarioRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Correo" />
+
+
+    <EditText
+        android:id="@+id/contraseñaRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Contraseña"/>
+
+
+    <Button
+        android:id="@+id/btnregistrar"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginStart="105dp"
+        android:text="Registrar" />
+
+
+    <Button
+        android:id="@+id/btnregresar"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="300dp"
+        android:text="Regresar" />
+
+</LinearLayout>
